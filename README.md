@@ -6,11 +6,11 @@
 - [SFML based space shooter game (C++)](#spaceranger) 
 
 ## Raytracer
-The project can be found [here](https://kagonkhan.github.io/RayTracingCS/). Currently a work-in-progress as there are some abnormalities and features not yet implemented. The project is based on the ***The Ray Tracer Challenge*** book by ***Jamis Buck***. Current features support multiple light sources, transparency, reflectivity, materials, patterns, and more!. A vector/matrix basic library has been implemented as well.
+More on the project can be found [here](https://kagonkhan.github.io/RayTracingCS/). Currently a work-in-progress as there are some abnormalities and features not yet implemented. The project is based on the ***The Ray Tracer Challenge*** book by ***Jamis Buck***. Current features support multiple light sources, transparency, reflectivity, materials, patterns, and more!. A vector/matrix basic library has been implemented as well.
 ![Image](https://raw.githubusercontent.com/KagonKhan/RayTracingCS/master/examples/5.png)
 
 ## SpaceRanger
-The project can be found [here](https://kagonkhan.github.io/SpaceRanger/).
+More on the project can be found [here](https://kagonkhan.github.io/SpaceRanger/).
 ![Image](https://raw.githubusercontent.com/KagonKhan/SpaceRanger/master/examples/ex1.png)
 
 
