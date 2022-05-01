@@ -8,9 +8,12 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 -->
 # My (more notable) Projects
-[## Raytracer implementation in C#](https://kagonkhan.github.io/RayTracingCS/)
+## - [Raytracer implementation (C#)](#raytracer)  
+## - [SFML based space shooter game (C++)](#spaceranger) 
+
+[Raytracer](https://kagonkhan.github.io/RayTracingCS/)
 ![Image](https://raw.githubusercontent.com/KagonKhan/RayTracingCS/master/examples/5.png)
-[## SFML based Space Shooter game](https://kagonkhan.github.io/SpaceRanger/)
+[SpaceRanger](https://kagonkhan.github.io/SpaceRanger/)
 ![Image](https://raw.githubusercontent.com/KagonKhan/SpaceRanger/master/examples/ex1.png)
 
 
