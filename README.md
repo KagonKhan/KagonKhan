@@ -1,9 +1,13 @@
+# website still WIP
 
 # My (more notable) Projects
 
 **Table of Contents**  
 - [Raytracer implementation (C#) (WIP)](#raytracer)  
 - [SFML based space shooter game (C++)](#spaceranger) 
+- [Random mini-projects](#repodump)
+- [TODO: fractals painter](#fractals)
+- [TODO: help me cook app](#cooking)
 
 ## Raytracer
 More on the project can be found [here](https://kagonkhan.github.io/RayTracingCS/). Currently a work-in-progress as there are some abnormalities and features not yet implemented. The project is based on the ***The Ray Tracer Challenge*** book by ***Jamis Buck***. Current features support multiple light sources, transparency, reflectivity, materials, patterns, and more!. A vector/matrix basic library has been implemented as well.
@@ -16,6 +20,14 @@ More on the project can be found [here](https://kagonkhan.github.io/SpaceRanger/
 
 
 
+## repodump
+To complete.
+
+## fractals
+To Do.
+
+## cooking
+To Do.
 
 
 <!--
