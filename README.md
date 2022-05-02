@@ -10,7 +10,7 @@ More on the project can be found [here](https://kagonkhan.github.io/RayTracingCS
 ![Image](https://raw.githubusercontent.com/KagonKhan/RayTracingCS/master/examples/5.png)
 
 ## SpaceRanger
-More on the project can be found [here](https://kagonkhan.github.io/SpaceRanger/).
+More on the project can be found [here](https://kagonkhan.github.io/SpaceRanger/). A 2D space shooting game, utilizing the SFML library. The game style choice was inspired by the Space Invaders title. Many game techniques (natural movement, tracking systems, collision detection) and design patterns (singletons, commands, inheritance trees, flyweights, states, factories) have been utilized. Additionally, a GUI system has been implemented.
 ![Image](https://raw.githubusercontent.com/KagonKhan/SpaceRanger/master/examples/ex1.png)
 
 
