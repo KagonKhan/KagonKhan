@@ -5,7 +5,7 @@
 **Table of Contents**  
 - [Raytracer implementation (C#) (WIP)](#raytracer)  
 - [SFML based space shooter game (C++)](#spaceranger) 
-- [Random mini-projects](#repodump)
+- [Random mini-projects](#collection)
 - [TODO: fractals painter](#fractals)
 - [TODO: help me cook app](#cooking)
 
@@ -20,7 +20,7 @@ More on the project can be found [here](https://kagonkhan.github.io/SpaceRanger/
 
 
 
-## repodump
+## Collection
 To complete.
 
 ## fractals
