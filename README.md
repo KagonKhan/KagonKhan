@@ -1,5 +1,3 @@
-[WIP]
-
 # My (more notable) Projects
 
 **Table of Contents** 
