@@ -5,7 +5,8 @@
 **Table of Contents** 
 - [Game Scripting Engine](#gamescriptingengine)
 - [Raytracing](#raytracing)  
-- [SFML based space shooter game (C++)](#spaceranger) 
+- [SFML based space shooter game](#spaceranger) 
+- [SFML based particle system](#sfml_particles)
 - [Random mini-projects](#collection)
 
 ## GameScriptingEngine
@@ -54,6 +55,16 @@ And recently, I implemented a version utilizing [DearImGui](https://github.com/o
 ## SpaceRanger
 More on the project can be found [here](https://kagonkhan.github.io/SpaceRanger/). A 2D space shooting game, utilizing the SFML library. The game style choice was inspired by the Space Invaders title. Many game techniques (natural movement, tracking systems, collision detection) and design patterns (singletons, commands, inheritance trees, flyweights, states, factories) have been utilized. Additionally, a GUI system has been implemented.
 ![Image](https://raw.githubusercontent.com/KagonKhan/SpaceRanger/master/examples/ex1.png)
+
+
+## SFML_Particles
+A very basic particle system, will be finished... soon <sup>tm</sup>. Project [here](https://github.com/KagonKhan/SFML_particles).
+<p float="left">
+  <img src="Images\particles_1.png" width="49%" />
+  <img src="Images\particles_2.png" width="49%" /> 
+</p>
+
+
 
 
 
