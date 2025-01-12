@@ -3,19 +3,27 @@
 # My (more notable) Projects
 
 **Table of Contents**  
-- [Raytracer implementation (C#) (WIP)](#raytracer)  
+- [Raytracing](#raytracer)  
 - [SFML based space shooter game (C++)](#spaceranger) 
 - [Random mini-projects](#collection)
-- [TODO: fractals painter](#fractals)
-- [TODO: help me cook app](#cooking)
 
-## Raytracer
-More on the project can be found [here](https://kagonkhan.github.io/RayTracingCS/). Currently a work-in-progress as there are some abnormalities and features not yet implemented. The project is based on the ***The Ray Tracer Challenge*** book by ***Jamis Buck***. Current features support multiple light sources, transparency, reflectivity, materials, patterns, and more!. A vector/matrix basic library has been implemented as well.
-![Image](https://raw.githubusercontent.com/KagonKhan/RayTracingCS/master/examples/5.png)
+
+## Raytracing
+The initial version based on ***The Ray Tracer Challenge*** book by ***Jamis Buck*** implemented in C# can be found [here](https://kagonkhan.github.io/RayTracingCS/). Features multiple light sources, transparency, reflectivity, materials, patterns, and more!. A vector/matrix basic library has been implemented as well.
+![Image](https://raw.githubusercontent.com/KagonKhan/RayTracingCS/refs/heads/master/examples/8.png)
+
+Later, the project was moved to C++ ([here](https://github.com/KagonKhan/CompileTimeRayTracer)) in order to achieve compile-time raytracing. Successful (?) but not really worth it. A lot of fiddling with compiler settings to allow larger stack sizes, longer tracing times, and smaller max resolutions.
+
+And recently, I implemented a version utilizing [DearImGui](https://github.com/ocornut/imgui) found [here](https://github.com/KagonKhan/RayTracerV2). The implementation is fairly basic, but it's real-time with an object editor/picker and an interactable camera. Work on hold, until I go through the Physically Based Rendering book.
+![Image](https://raw.githubusercontent.com/KagonKhan/RayTracingCS/refs/heads/master/examples/8.png)
+
+
+
+
 
 ## SpaceRanger
 More on the project can be found [here](https://kagonkhan.github.io/SpaceRanger/). A 2D space shooting game, utilizing the SFML library. The game style choice was inspired by the Space Invaders title. Many game techniques (natural movement, tracking systems, collision detection) and design patterns (singletons, commands, inheritance trees, flyweights, states, factories) have been utilized. Additionally, a GUI system has been implemented.
-![Image](https://raw.githubusercontent.com/KagonKhan/SpaceRanger/master/examples/ex1.png)
+![Image](Images\real-time_raytracing.png)
 
 
 
