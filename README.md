@@ -2,10 +2,40 @@
 
 # My (more notable) Projects
 
-**Table of Contents**  
-- [Raytracing](#raytracer)  
+**Table of Contents** 
+- [Game Scripting Engine](#gamescriptingengine)
+- [Raytracing](#raytracing)  
 - [SFML based space shooter game (C++)](#spaceranger) 
 - [Random mini-projects](#collection)
+
+## GameScriptingEngine
+Automation/scripting engine to simplify repetetive actions (goodbye RSI just to play some games...). Currently, under development. ![image](Images\game_scripting_engine.png)
+Features:
+- an AutoClicker,
+- a basic scripting engine (click, mouse move, send keys, sleeps, delays, loop inner script), with parsing to and
+from file,
+- a monitor pixel reader,
+- a template searcher (openCV),
+- a snipping tool (similar to windows+shift+s), with auto updates of the image (used by the monitor pixel reader,
+and template searcher for optimization),
+- a console output widget,
+- hotkeys system,
+
+Scripts can be created via builder pattern, like so:
+```c++
+SyncScriptBuilder()
+                   .send(Keyboard::KEY::I)
+                   .press(position, 50)
+                   .send(Keyboard::KEY::I)
+                   .click(nest_pos)
+                   .click(animal_pos)
+                   .setStepDelay(0)
+                   .loop(new Script(SyncScriptBuilder().click(breed_pos).click(scrap).build()), 10)
+                   .setStepDelay(delay.count())
+                   .build()
+```
+
+
 
 
 ## Raytracing
@@ -15,7 +45,7 @@ The initial version based on ***The Ray Tracer Challenge*** book by ***Jamis Buc
 Later, the project was moved to C++ ([here](https://github.com/KagonKhan/CompileTimeRayTracer)) in order to achieve compile-time raytracing. Successful (?) but not really worth it. A lot of fiddling with compiler settings to allow larger stack sizes, longer tracing times, and smaller max resolutions.
 
 And recently, I implemented a version utilizing [DearImGui](https://github.com/ocornut/imgui) found [here](https://github.com/KagonKhan/RayTracerV2). The implementation is fairly basic, but it's real-time with an object editor/picker and an interactable camera. Work on hold, until I go through the Physically Based Rendering book.
-![Image](https://raw.githubusercontent.com/KagonKhan/RayTracingCS/refs/heads/master/examples/8.png)
+![Image](Images\real-time_raytracing.png)
 
 
 
@@ -23,7 +53,7 @@ And recently, I implemented a version utilizing [DearImGui](https://github.com/o
 
 ## SpaceRanger
 More on the project can be found [here](https://kagonkhan.github.io/SpaceRanger/). A 2D space shooting game, utilizing the SFML library. The game style choice was inspired by the Space Invaders title. Many game techniques (natural movement, tracking systems, collision detection) and design patterns (singletons, commands, inheritance trees, flyweights, states, factories) have been utilized. Additionally, a GUI system has been implemented.
-![Image](Images\real-time_raytracing.png)
+![Image](https://raw.githubusercontent.com/KagonKhan/SpaceRanger/master/examples/ex1.png)
 
 
 
@@ -74,12 +104,6 @@ A [collection](https://github.com/KagonKhan/RepoLection/tree/main/unfinished-gam
 -  IdleOn mining minigame (PyGame).
 -  SFML based RPG.
 -  SFML based GUI system.
-
-## fractals
-To Do.
-
-## cooking
-To Do.
 
 
 <!--
